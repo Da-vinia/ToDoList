@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This is a project which consists of creating a 'To Do List' made with HTML, CSS and JavaScript."/>
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Davinia Tosco" />
+    <title>Davinia Tosco | Front-end Web Developer | To Do List</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"/>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+   
+    <section class="section-center">
+    	<div class="decorative-shadow"></div>
+	    	<div class="decorative-buttons"></div>
+	    		<ul class="each-button">
+	  				<li><div class="button-one"></div></li>
+	  				<li><div class="button-two"></div></li>
+	  				<li><div class="button-three"></div></li>
+  			    </ul>
+
+    	<!-- <div class="decorative-shadow"></div> -->
+      <!--form-->
+      <form class="todo-form">
+        <p class="alert"></p>
+        <h3>To Do List</h3>
+        <div class="form-control">
+          <input type="text" id="action" placeholder="e.g. watering plants" />
+          <button type="submit" class="submit-btn">submit</button>
+        </div>
+      </form>
+      <!--list-->
+      <div class="list-container">  
+        <div class="todo-list">   
+          <article class="list-item">  
+            
+          </article>
+        </div>
+        <!--button-->
+        <button type="button" class="clear-btn">clear items</button>
+      </div>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
